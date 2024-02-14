@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Model Prediction Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+    <header>
+        Real-time Model Prediction Dashboard
+    </header>
+
+    <!-- <button id="runModelBtn">Run model</button> -->
+    <div id="dashboard">
+        <table id="resultTable">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Comments</th>
+                    <th>Labels</th>
+                    <th>Sensitive</th>
+                    <th>Overall</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dữ liệu sẽ được cập nhật tại đây -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="{{ url_for('static',filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+header {
+    background-color: #6db5cb; 
+    padding: 10px;
+    text-align: center;
+    color: #d6e9f0;
+    font-size: 24px;
+}
+
+#dashboard {
+    margin: 20px;
+    padding: 15px; 
+    background-color: #d6e9f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    max-width: 1500px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 17px;
+    margin-bottom: 20px;
+    right: 30;
+    background-color: #00586c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #aeadee;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #00586c;
+    color: white;
+}
+#runModelBtn {
+    margin-left: 90%;
+    margin-top: 20px;
+}
