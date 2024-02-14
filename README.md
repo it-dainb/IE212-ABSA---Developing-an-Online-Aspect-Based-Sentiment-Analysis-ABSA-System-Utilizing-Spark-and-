@@ -1,6 +1,25 @@
 # IE212-ABSA
 Xây dựng Hệ thống Phân tích Dựa trên Khía cạnh Cảm xúc (ABSA) Trực tuyến sử dụng Spark và Kafka trên Dữ liệu Bình luận từ Shopee.
 
+[**Link báo cáo**](https://www.overleaf.com/read/vsksgcnrkyjk#777b93)
+
+![System overall](./images/overall.png)
+![Web](./images/web.png)
+
+## Module online
+
+![Online](./images/online.png)
+
+## Module offline
+
+![Offline](./images/offline.png)
+
+## Module predict
+
+![Predict](./images/predict.png)
+
+# Hướng dẫn thực nghiệm
+
 ## Bước 1: Tải mô hình
 [**Link tải mô hình**](https://drive.google.com/drive/folders/1ChxaZdyyBja2ygICWN3dBMssinhuXRWA?usp=sharing)
 

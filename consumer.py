@@ -31,6 +31,8 @@ spark = SparkSession.builder \
                     .config("spark.sql.execution.arrow.maxRecordsPerBatch", "16") \
                     .config("spark.sql.streaming.forceDeleteTempCheckpointLocation", True) \
                     .config("spark.jars.packages", ",".join(packages))\
+                    .config("spark.executor.heartbeatInterval", "3600s") \
+                    .config("spark.network.timeout", "4000s") \
                     .getOrCreate()
 
 spark.sparkContext.setLogLevel("error")
@@ -79,15 +81,16 @@ resultDF = pipeline.fit(cleanDF).transform(cleanDF)
 def send_record_to_server(record):
     url = "http://127.0.0.1:5000/"
 
-    response = requests.post(url, json=record.asDict())
+    try:
+        response = requests.post(url, json=record.asDict())
+    except:
+        pass
 
 from dotenv import load_dotenv
 load_dotenv()
 
 import os
-
-output_path         = os.getenv('ROOT_PATH') + "/database/"
-
+output_path = os.getenv('ROOT_PATH') + "/database/"
 if (not os.path.exists(output_path)):
     os.mkdir(output_path)
 
