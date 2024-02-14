@@ -87,6 +87,10 @@ load_dotenv()
 import os
 
 output_path         = os.getenv('ROOT_PATH') + "/database/"
+
+if (not os.path.exists(output_path)):
+    os.mkdir(output_path)
+
 checkpoint_location = os.getenv('ROOT_PATH') + "/database/checkpoint/"
 
 stream_writer = (

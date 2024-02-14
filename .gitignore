@@ -1,6 +1,8 @@
 models/NER
 models/SA
 
+database
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
