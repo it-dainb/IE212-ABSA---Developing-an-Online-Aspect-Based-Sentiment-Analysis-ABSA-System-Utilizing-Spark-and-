@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ## Bước 3: Cài đặt biến
 
-Mở file *.env* và sửa ROOR_PATH thành đường dẫn folder gốc nơi chứa foler IE212-ABSA
+Mở file *.env* và sửa ROOT_PATH thành đường dẫn folder gốc nơi chứa foler IE212-ABSA
 ```.env
 ROOT_PATH=C:/Downloads/IE212-ABSA
 ```
