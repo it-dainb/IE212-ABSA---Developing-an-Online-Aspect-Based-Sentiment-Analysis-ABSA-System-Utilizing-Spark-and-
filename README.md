@@ -1,6 +1,12 @@
 # IE212-ABSA
 Xây dựng Hệ thống Phân tích Dựa trên Khía cạnh Cảm xúc (ABSA) Trực tuyến sử dụng Spark và Kafka trên Dữ liệu Bình luận từ Shopee.
 
+- [Nguyễn Bá Đại](https://www.facebook.com/it.dainb/)   - 21521914@gm.uit.edu.vn
+- [Bùi Minh Huy](https://www.facebook.com/profile.php?id=100014776896464)   - 21520910@gm.uit.edu.vn
+- [Trần Ngọc Chinh](https://www.facebook.com/tnchinh.03)    - 21521892@gm.uit.edu.vn
+
+GVHD: Đỗ Trọng Hợp - hopdt@uit.edu.vn
+
 [**Link báo cáo**](https://www.overleaf.com/read/vsksgcnrkyjk#777b93)
 
 ![System overall](./images/overall.png)
