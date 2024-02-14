@@ -11,9 +11,9 @@ Lưu mô hình như cấu trúc dưới
 ```
 ├── models
 │   ├── NER <----- Put NER model in here
-│   │   ├── fields                                             │
-│   │   ├── metadata                                        │
-│   │   ├── .bert_classification_tensorflow.crc    │ Example
+│   │   ├── fields                                  │
+│   │   ├── metadata                                │
+│   │   ├── .bert_classification_tensorflow.crc     │ Example
 │   │   ├── bert_classification_tensorflow          │
 │   ├── SA  <----- Put SA model in here
 │   ├── __init__.py
